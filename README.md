@@ -1,4 +1,4 @@
-# Colors ![GitHub](https://img.shields.io/github/license/codewinks/go-colors.svg)[![GoDoc](https://godoc.org/github.com/codewinks/go-colors?status.svg)](https://godoc.org/github.com/codewinks/go-colors) [![Build Status](https://img.shields.io/travis/codewinks/go-colors.svg?style=flat-square)](https://travis-ci.org/codewinks/go-colors)
+# Colors ![GitHub](https://img.shields.io/github/license/codewinks/go-colors.svg) [![GoDoc](https://godoc.org/github.com/codewinks/go-colors?status.svg)](https://godoc.org/github.com/codewinks/go-colors) [![Build Status](https://img.shields.io/travis/codewinks/go-colors.svg?style=flat-square)](https://travis-ci.org/codewinks/go-colors)
 
 Colors lets you use colorized outputs in terms of [ANSI Escape
 Codes](http://en.wikipedia.org/wiki/ANSI_escape_code#Colors) in Go (Golang).
