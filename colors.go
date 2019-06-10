@@ -13,8 +13,8 @@ const BOLD = "\033[1m"
 //BLACK – BLACK
 const BLACK = "\033[0;30m"
 
-//GREY – GREY
-const GREY = "\033[1;30m"
+//BLACKBOLD – BLACKBOLD
+const BLACKBOLD = "\033[1;30m"
 
 //RED – RED
 const RED = "\033[0;31m"
@@ -63,7 +63,7 @@ func ShowExample() {
 	fmt.Printf("%sNC\n", NC)
 	fmt.Println(Bold("Bold"))
 	fmt.Println(Black("Black"))
-	fmt.Println(Grey("Grey"))
+	fmt.Println(BlackBold("Black Bold"))
 	fmt.Println(Red("Red"))
 	fmt.Println(RedBold("Red Bold"))
 	fmt.Println(Green("Green"))
@@ -95,9 +95,9 @@ func Black(text string) string {
 	return Get(BLACK, text)
 }
 
-// Grey – Output text in Grey
-func Grey(text string) string {
-	return Get(GREY, text)
+// BlackBold – Output text in BlackBold
+func BlackBold(text string) string {
+	return Get(BLACKBOLD, text)
 }
 
 // Red – Output text in Red
