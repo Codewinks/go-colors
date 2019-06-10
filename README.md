@@ -15,7 +15,7 @@ go get github.com/codewinks/go-colors
 ## Examples
 ```go
 import (
-	"github.com/codewinks/go-colors"
+  "github.com/codewinks/go-colors"
 )
 
 func main(){
